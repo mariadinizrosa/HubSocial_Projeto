@@ -1,16 +1,5 @@
 # Documentação de APIs — Hub Social
 
-## Como acessar a documentação interativa
-
-Com o servidor rodando (`uvicorn app:app --reload`), acesse:
-
-| Interface | URL | Descrição |
-|---|---|---|
-| **Swagger UI** | http://localhost:8000/docs | Interface visual, testa os endpoints direto no navegador |
-| **ReDoc** | http://localhost:8000/redoc | Documentação em formato leitura |
-
-## Endpoints documentados (14 no total)
-
 ### 🔐 Autenticação
 
 | # | Método | Endpoint | Descrição | Auth | Códigos de status |
